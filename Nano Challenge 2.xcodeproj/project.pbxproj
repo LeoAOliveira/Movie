@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC65F1824083454007520C8 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC65F1724083454007520C8 /* ShareViewController.swift */; };
+		8CC65F1B24083454007520C8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC65F1924083454007520C8 /* MainInterface.storyboard */; };
+		8CC65F1F24083454007520C8 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8CC65F1524083454007520C8 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A7BE03472267B5A6007D5EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BE03462267B5A6007D5EAD /* AppDelegate.swift */; };
+		A7BE03492267B5A6007D5EAD /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BE03482267B5A6007D5EAD /* MovieViewController.swift */; };
+		A7BE034C2267B5A6007D5EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BE034A2267B5A6007D5EAD /* Main.storyboard */; };
+		A7BE034E2267B5A7007D5EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BE034D2267B5A7007D5EAD /* Assets.xcassets */; };
+		A7BE03512267B5A7007D5EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BE034F2267B5A7007D5EAD /* LaunchScreen.storyboard */; };
+		A7BE035B22690761007D5EAD /* IconSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BE035A22690761007D5EAD /* IconSelectionViewController.swift */; };
+		A7D5D272226A22E7005F51A7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D5D271226A22E7005F51A7 /* InfoViewController.swift */; };
+		A7D5D274226A2BDA005F51A7 /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D5D273226A2BDA005F51A7 /* GuessViewController.swift */; };
+		A7D5D276226A5720005F51A7 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D5D275226A5720005F51A7 /* ScoreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC65F1D24083454007520C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BE033B2267B5A6007D5EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC65F1424083454007520C8;
+			remoteInfo = ShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CC65F2324083454007520C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8CC65F1F24083454007520C8 /* ShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8CC65F1524083454007520C8 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC65F1724083454007520C8 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		8CC65F1A24083454007520C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8CC65F1C24083454007520C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC65F2424083508007520C8 /* ShareExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExtensionRelease.entitlements; sourceTree = "<group>"; };
+		8CC65F2524083541007520C8 /* Nano Challenge 2Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nano Challenge 2Release.entitlements"; sourceTree = "<group>"; };
+		A7BE03432267B5A6007D5EAD /* Nano Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BE03462267B5A6007D5EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7BE03482267B5A6007D5EAD /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		A7BE034B2267B5A6007D5EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7BE034D2267B5A7007D5EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7BE03502267B5A7007D5EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7BE03522267B5A7007D5EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BE035A22690761007D5EAD /* IconSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSelectionViewController.swift; sourceTree = "<group>"; };
+		A7D5D271226A22E7005F51A7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A7D5D273226A2BDA005F51A7 /* GuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
+		A7D5D275226A5720005F51A7 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC65F1224083454007520C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BE03402267B5A6007D5EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC65F1624083454007520C8 /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8CC65F2424083508007520C8 /* ShareExtensionRelease.entitlements */,
+				8CC65F1724083454007520C8 /* ShareViewController.swift */,
+				8CC65F1924083454007520C8 /* MainInterface.storyboard */,
+				8CC65F1C24083454007520C8 /* Info.plist */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		A7BE033A2267B5A6007D5EAD = {
+			isa = PBXGroup;
+			children = (
+				A7BE03452267B5A6007D5EAD /* Nano Challenge 2 */,
+				8CC65F1624083454007520C8 /* ShareExtension */,
+				A7BE03442267B5A6007D5EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BE03442267B5A6007D5EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BE03432267B5A6007D5EAD /* Nano Challenge 2.app */,
+				8CC65F1524083454007520C8 /* ShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BE03452267B5A6007D5EAD /* Nano Challenge 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8CC65F2524083541007520C8 /* Nano Challenge 2Release.entitlements */,
+				A7BE03462267B5A6007D5EAD /* AppDelegate.swift */,
+				A7BE03482267B5A6007D5EAD /* MovieViewController.swift */,
+				A7BE035A22690761007D5EAD /* IconSelectionViewController.swift */,
+				A7D5D273226A2BDA005F51A7 /* GuessViewController.swift */,
+				A7D5D275226A5720005F51A7 /* ScoreViewController.swift */,
+				A7D5D271226A22E7005F51A7 /* InfoViewController.swift */,
+				A7BE034A2267B5A6007D5EAD /* Main.storyboard */,
+				A7BE034D2267B5A7007D5EAD /* Assets.xcassets */,
+				A7BE034F2267B5A7007D5EAD /* LaunchScreen.storyboard */,
+				A7BE03522267B5A7007D5EAD /* Info.plist */,
+			);
+			path = "Nano Challenge 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC65F1424083454007520C8 /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC65F2024083454007520C8 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				8CC65F1124083454007520C8 /* Sources */,
+				8CC65F1224083454007520C8 /* Frameworks */,
+				8CC65F1324083454007520C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareExtension;
+			productName = ShareExtension;
+			productReference = 8CC65F1524083454007520C8 /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A7BE03422267B5A6007D5EAD /* Nano Challenge 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BE03552267B5A7007D5EAD /* Build configuration list for PBXNativeTarget "Nano Challenge 2" */;
+			buildPhases = (
+				A7BE033F2267B5A6007D5EAD /* Sources */,
+				A7BE03402267B5A6007D5EAD /* Frameworks */,
+				A7BE03412267B5A6007D5EAD /* Resources */,
+				8CC65F2324083454007520C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC65F1E24083454007520C8 /* PBXTargetDependency */,
+			);
+			name = "Nano Challenge 2";
+			productName = "Nano Challenge 2";
+			productReference = A7BE03432267B5A6007D5EAD /* Nano Challenge 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BE033B2267B5A6007D5EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Leonardo Oliveira";
+				TargetAttributes = {
+					8CC65F1424083454007520C8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A7BE03422267B5A6007D5EAD = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A7BE033E2267B5A6007D5EAD /* Build configuration list for PBXProject "Nano Challenge 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7BE033A2267B5A6007D5EAD;
+			productRefGroup = A7BE03442267B5A6007D5EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BE03422267B5A6007D5EAD /* Nano Challenge 2 */,
+				8CC65F1424083454007520C8 /* ShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC65F1324083454007520C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC65F1B24083454007520C8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BE03412267B5A6007D5EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BE03512267B5A7007D5EAD /* LaunchScreen.storyboard in Resources */,
+				A7BE034E2267B5A7007D5EAD /* Assets.xcassets in Resources */,
+				A7BE034C2267B5A6007D5EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC65F1124083454007520C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC65F1824083454007520C8 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BE033F2267B5A6007D5EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BE03492267B5A6007D5EAD /* MovieViewController.swift in Sources */,
+				A7D5D274226A2BDA005F51A7 /* GuessViewController.swift in Sources */,
+				A7BE03472267B5A6007D5EAD /* AppDelegate.swift in Sources */,
+				A7D5D272226A22E7005F51A7 /* InfoViewController.swift in Sources */,
+				A7BE035B22690761007D5EAD /* IconSelectionViewController.swift in Sources */,
+				A7D5D276226A5720005F51A7 /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC65F1E24083454007520C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC65F1424083454007520C8 /* ShareExtension */;
+			targetProxy = 8CC65F1D24083454007520C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CC65F1924083454007520C8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC65F1A24083454007520C8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		A7BE034A2267B5A6007D5EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BE034B2267B5A6007D5EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7BE034F2267B5A7007D5EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BE03502267B5A7007D5EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC65F2124083454007520C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVKHG959FC;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeoAOliveira.Nano-Challenge-2.ShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CC65F2224083454007520C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtensionRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVKHG959FC;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeoAOliveira.Nano-Challenge-2.ShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7BE03532267B5A7007D5EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7BE03542267B5A7007D5EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7BE03562267B5A7007D5EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVKHG959FC;
+				INFOPLIST_FILE = "Nano Challenge 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeoAOliveira.Nano-Challenge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7BE03572267B5A7007D5EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Nano Challenge 2/Nano Challenge 2Release.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVKHG959FC;
+				INFOPLIST_FILE = "Nano Challenge 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeoAOliveira.Nano-Challenge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC65F2024083454007520C8 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC65F2124083454007520C8 /* Debug */,
+				8CC65F2224083454007520C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BE033E2267B5A6007D5EAD /* Build configuration list for PBXProject "Nano Challenge 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BE03532267B5A7007D5EAD /* Debug */,
+				A7BE03542267B5A7007D5EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BE03552267B5A7007D5EAD /* Build configuration list for PBXNativeTarget "Nano Challenge 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BE03562267B5A7007D5EAD /* Debug */,
+				A7BE03572267B5A7007D5EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7BE033B2267B5A6007D5EAD /* Project object */;
+}
